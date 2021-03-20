@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Verificação de prefixo </title>
+</head>
+<body>
+
+    <script>
+        function verifica () {
+
+            const today = new Date ().getHours()
+
+            let prefixo = ""
+
+                if (today < 10) { 
+                    prefixo = "é "
+                } else {
+                    prefixo = "são "
+                }
+
+            alert ("já " + prefixo + today + "! vai dormir")
+        }
+
+
+
+    </script>
+
+    <button onclick="verifica () "> pensando em jogar?</button>
+    
+</body>
+</html>

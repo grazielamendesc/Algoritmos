@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Simulação Investimento </title>
+</head>
+<body>
+    <center>
+
+    <script src="meuscript.js"></script>
+
+    <h2>Aplicação para calcular qual será o rendimento e o montante final de acorodo com a porcentagem do investimento</h2>
+
+   <strong> 1. Digite o capital inicial do investimento </strong> <br><br> <input id="investimento" type="text"> <br><br>
+   <strong> 2. Digite qual a porcentagem de rendimento </strong> (use números decimais onde 0.01 é 1% e 1.0 é 100) <br><br> <input id="porcentagem" type="text"> <br><br>
+   <strong> 3. Digite em quanto tempo é atingido a porcentagem de rendimento em meses</strong>  (1 a 12)  <br><br> <input id="tempo" type="text"> <br><br>
+   <strong> 4. Digite por quanto tempo você pretende deixar o capital rendendo em meses </strong> (1 a 12) <br><br> <input id="periodo" type="text"> <br><br>
+
+   <button onclick="executar()">calcular</button>
+
+    <p id="valorFinal"></p> 
+
+    </center>
+
+    <p> Exemplo: <br><br>
+
+        <strong> 1. </strong> 600 reais <br>
+        <strong> 2. </strong> 0.2 <br>
+       <strong> 3. </strong> 3 meses <br>
+       <strong> 4. </strong> 12 meses  <br><br>
+
+        Nesse exemplo você investiria 600 reais com rendimento de 20% em 3 meses e você pretende deixar rendendo por 12 meses.
+        </p>
+
+</body>
+</html>
